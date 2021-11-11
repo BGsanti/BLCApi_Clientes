@@ -5,7 +5,7 @@ const { mongoose } = require('./conexion');
 
 //configuracion 
 
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 8082);
 
 
 //funciones para procesar los datos
